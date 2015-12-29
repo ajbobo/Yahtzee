@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rules", "Rules\Rules.csproj", "{50C39DED-9E2F-41AF-AC81-7DDB987965AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yahtzee_Console", "Yahtzee_Console\Yahtzee_Console.csproj", "{1DAB1771-0DBB-4D27-9F8D-8840C2767781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatzee_Windows", "Yatzee_Windows\Yatzee_Windows.csproj", "{D6F28044-2F7D-4A0B-8072-441D151D4729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yahtzee_Mobile", "Yahtzee_Mobile\Yahtzee_Mobile.csproj", "{96ED31B5-781E-44DF-BC23-44CA8D6D532C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF} = {50C39DED-9E2F-41AF-AC81-7DDB987965AF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Mobile Debug|Any CPU = Mobile Debug|Any CPU
+		Mobile Release|Any CPU = Mobile Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Mobile Debug|Any CPU.ActiveCfg = Mobile Debug|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Mobile Debug|Any CPU.Build.0 = Mobile Debug|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Mobile Release|Any CPU.ActiveCfg = Mobile Release|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Mobile Release|Any CPU.Build.0 = Mobile Release|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C39DED-9E2F-41AF-AC81-7DDB987965AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Mobile Debug|Any CPU.ActiveCfg = Mobile Debug|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Mobile Release|Any CPU.ActiveCfg = Mobile Release|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAB1771-0DBB-4D27-9F8D-8840C2767781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Mobile Debug|Any CPU.ActiveCfg = Mobile Debug|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Mobile Release|Any CPU.ActiveCfg = Mobile Release|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F28044-2F7D-4A0B-8072-441D151D4729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Debug|Any CPU.ActiveCfg = Mobile Debug|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Debug|Any CPU.Build.0 = Mobile Debug|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Debug|Any CPU.Deploy.0 = Mobile Debug|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Release|Any CPU.ActiveCfg = Mobile Release|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Release|Any CPU.Build.0 = Mobile Release|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Mobile Release|Any CPU.Deploy.0 = Mobile Release|Any CPU
+		{96ED31B5-781E-44DF-BC23-44CA8D6D532C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

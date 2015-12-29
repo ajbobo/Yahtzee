@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Yahtzee_Console.Program">
+    <Position X="0.75" Y="0.5" Width="2" />
+    <AssociationLine Name="thedice" Type="Yahtzee.Dice">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.924" Y="0.05" Height="0.182" Width="0.792" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="therules" Type="Yahtzee.Rules" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="1.75" />
+        <Point X="3.51" Y="1.75" />
+        <Point X="3.51" Y="2.813" />
+        <Point X="4.5" Y="2.813" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.964" Y="1.123" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgCIAAAAAAAIAACAAAgBQAAAQAAAgAEAABBIAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="thedice" />
+      <Field Name="therules" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Yahtzee.Dice">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Yahtzee.Rules">
+    <Position X="4.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
